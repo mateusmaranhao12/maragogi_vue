@@ -1,0 +1,28 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+.texto-azul {
+    background-color: $destaque-azul;
+    color: $branco;
+    padding: $padding-destaque-azul;
+    text-align: $centro;
+}
+
+.historia {
+
+    h2 {
+        color: $preto;
+        font-weight: $negrito;
+        margin-top: $margins
+    }
+
+    p {
+        color: $preto;
+        margin-top: $margins;
+        margin-bottom: $margins;
+        font-size: $font-size-18;
+    }
+
+    img {
+        margin-top: $margins;
+    }
+}

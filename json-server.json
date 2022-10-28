@@ -1,0 +1,66 @@
+{
+
+    "atracoes_principais": [
+        {"imagem": "img1.jpg","titulo": "Piscinas Naturais", "resumo": "Lorem ipsum dolor sit amet"},
+        {"imagem": "img2.jpg","titulo": "As Melhores Hospedagens", "resumo": "Lorem ipsum dolor sit amet"},
+        {"imagem": "img3.jpg","titulo": "Viagem rápida para Porto de Galinhas", "resumo": "Lorem ipsum dolor sit amet"},
+        {"imagem": "img4.jpg","titulo": "Viagem rápida para Maceió", "resumo": "Lorem ipsum dolor sit amet"},
+        {"imagem": "img5.jpg","titulo": "Passeios de Buggy", "resumo": "Lorem ipsum dolor sit amet"},
+        {"imagem": "img6.jpg","titulo": "Gastronomia", "resumo": "Lorem ipsum dolor sit amet"}
+    ],
+
+    "ruas": [
+        {"id": 1, "rua": "Av. Sen. Rui Palmeira/Av. Beira-mar"},
+        {"id": 2, "rua": "R. Emílio Santa Rosa"},
+        {"id": 3, "rua": "R. Pedro de Melo"},
+        {"id": 4, "rua": "R. Luís Holanda"},
+        {"id": 5, "rua": "Pça. João Batista Acioly"},
+        {"id": 6, "rua": "R. José M. de Carvalho"},
+        {"id": 7, "rua": "Pça Santo Antônio"},
+        {"id": 8, "rua": "Rua T. Acioly Wanderley"},
+        {"id": 9, "rua": "R. G. J. Correia"},
+        {"id": 10, "rua": "R. Melquiades Lindoso"},
+        {"id": 11, "rua": "R. José Machado Filho"},
+        {"id": 12, "rua": "R. Pe. J. Wernekes."}
+    ],
+
+    "dados_gerais": [
+        {"pergunta": "Fundação", "resposta": "1875 (145 anos)"},
+        {"pergunta": "Aniversário", "resposta": "24 de Abril"},
+        {"pergunta": "Área", "resposta": "334,046 km²"},
+        {"pergunta": "População", "resposta": "31.748 hab. (IBGE 2014)"},
+        {"pergunta": "Clima", "resposta": "Tropical quente e úmido"},
+        {"pergunta": "Bioma", "resposta": "Mata Atlântica"},
+        {"pergunta": "Fuso-Horário", "resposta": "UTC-3"},
+        {"pergunta": "Latitude", "resposta": "-09.0044"},
+        {"pergunta": "Longitude", "resposta": "-35.1321"},
+        {"pergunta": "Altitude", "resposta": "5m"},
+        {"pergunta": "Temperatura Média", "resposta": "27°"},
+        {"pergunta": "Bacias Hidrográficas", "resposta": "formadas pelos rios Maragogi, Persinunga, Salgado e dos Paus - O Rio Maragogi nasce na fazenda Samba, que outrora pertenceu a Usina Central Barreiros e hoje é assentamento. É um rio com aproximadamente 20 km de extensão, baixo volume de água, que aumenta no inverno devido a grande área de várzea que armazena água e da influência das marés, dando origem aos manguezais."},
+        {"pergunta": "Padroeiro", "resposta": "Santo Antônio (data comemorativa: 13 de junho)"},
+        {"pergunta": "CEP", "resposta": "57955-000"},
+        {"pergunta": "Economia", "resposta": "Agricultura, Pesca e Turismo"},
+        {"pergunta": "Distância de Maceió", "resposta": "125 Km"},
+        {"pergunta": "Distância de Recife", "resposta": "125 Km"},
+        {"pergunta": "Acesso", "resposta": "AL 101 Norte (partindo de Maceió) BR 101 Sul e PE 060 (partindo do Recife)"},
+        {"pergunta": "Prefeito", "resposta": "Fernando Sérgio Lira Neto"}
+    ],
+
+    "telefones": [
+        {"contato": "CEAL (Energia)", "numero": "3296.1543"},
+        {"contato": "CASAL (Água e Saneamento)", "numero": "3296.1250"},
+        {"contato": "Corpo de Bombeiros", "numero": "3296-2026 / 193"},
+        {"contato": "Batalhão de Polícia Militar", "numero": "3296.1385 / 3296.1190"},
+        {"contato": "Polícia Civil - Disk denúncia", "numero": "3296-1515"},
+        {"contato": "Posto de Saúde", "numero": "3296-1274"},
+        {"contato": "Posto de Combustíveis", "numero": "3296-1114"},
+        {"contato": "Farmácia", "numero": "3296-1112 / 3296-2081"},
+        {"contato": "Correios", "numero": "3296-1149"},
+        {"contato": "Banco do Brasil", "numero": "3296.1211"},
+        {"contato": "Prefeitura", "numero": "3296.1559"},
+        {"contato": "Tabelionato Djalma Lindoso", "numero": "3296.1347"},
+        {"contato": "Costa dos Corais Convention Bureau", "numero": "3296.1305"},
+        {"contato": "Rádio 93,3 FM", "numero": "3296-2280"}
+    ]
+
+}

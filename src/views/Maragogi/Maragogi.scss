@@ -1,0 +1,58 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+.texto-azul {
+    background-color: $destaque-azul;
+    color: $branco;
+    padding: $padding-destaque-azul;
+    text-align: $centro;
+}
+
+.localizacao {
+
+    margin-top: $margins;
+
+    h2{ 
+        text-align: $centro;
+        text-transform: $maiusculo;
+        font-weight: $negrito;
+        margin-bottom: $margins;
+        color: $preto;
+    }
+
+}
+
+.mapa-da-cidade {
+    margin-top: $margins;
+
+    h4{ 
+        text-align: $centro;
+        text-transform: $maiusculo;
+        font-weight: $negrito;
+        margin-bottom: $margins;
+        color: $preto;
+    }
+
+    img {
+        margin-bottom: $margins;
+    }
+}
+
+.dados-gerais {
+    h4{ 
+        text-transform: $maiusculo;
+        font-weight: $negrito;
+        margin-top: $margins;
+        margin-bottom: $margins;
+        color: $preto;
+    }
+}
+
+.telefones {
+    h4{ 
+        text-transform: $maiusculo;
+        font-weight: $negrito;
+        margin-top: $margins;
+        margin-bottom: $margins;
+        color: $preto;
+    }
+}

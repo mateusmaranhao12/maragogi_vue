@@ -1,0 +1,60 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.conteudo-principal {
+    h2 {
+        background-color: $destaque-laranja;
+        color: $branco;
+        padding: $padding;
+        text-align: $centro;
+        font-weight: $negrito;
+    }
+}
+
+/*Grids*/
+
+.grids{
+    background: $branco;
+    margin-bottom: 40px;
+    padding-left: $padding;
+    padding-right: $padding;
+}
+
+.grids img{
+    margin-top: $margins;
+    margin-bottom: 10px;
+    border-radius: $border-radius;
+}
+
+.grids h4{
+    text-transform: $maiusculo;
+    font-size: 12px;
+    font-weight: $negrito;
+}
+
+.grids p{
+    font-size: 10px;
+}
+
+.marcador{
+    margin-bottom: 10px;
+}
+
+.btn-grid{
+    background: $botoes;
+    border-radius: $border-radius;
+    color: $branco;
+    font-weight: $negrito;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-grid:hover{
+    background: $destaque-laranja;
+    transform: scale(1.3);
+    transition: .3s ease;
+    color: $branco;
+}

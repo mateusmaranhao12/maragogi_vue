@@ -1,0 +1,41 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+body{
+    min-height: 100vh;
+    background-attachment: fixed;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    margin-left: $margins;
+    background: $branco;
+}
+
+.navbar-toggler{
+    border: 1px solid $preto;
+    margin: $margins;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.2);
+}
+
+.navbar-site {
+
+    .navbar-nav {
+
+        .nav-link {
+            color: $preto;
+            font-weight: $negrito;
+            text-transform: $maiusculo;
+        }
+
+        .nav-link:hover {
+            color: $laranja;
+            transition: 0.2s ease;
+            border-bottom: 1px solid $destaque-laranja;
+        }
+
+    }
+
+}
