@@ -61,6 +61,17 @@
         {"contato": "Tabelionato Djalma Lindoso", "numero": "3296.1347"},
         {"contato": "Costa dos Corais Convention Bureau", "numero": "3296.1305"},
         {"contato": "Rádio 93,3 FM", "numero": "3296-2280"}
+    ],
+
+    "o_que_fazer": [
+        {"id": 1, "imagem": "cartao1.jpg", "titulo": "Piscinas naturais", "resumo": "Lorem ipsum dolor sit amet"},
+        {"id": 2, "imagem": "cartao2.jpg", "titulo": "Mergulho", "resumo": "Lorem ipsum dolor sit amet"},
+        {"id": 3, "imagem": "cartao3.jpg", "titulo": "Praia", "resumo": "Lorem ipsum dolor sit amet"},
+        {"id": 4, "imagem": "cartao4.jpeg", "titulo": "Passeios de Buggy", "resumo": "Lorem ipsum dolor sit amet"},
+        {"id": 5, "imagem": "cartao5.jpg", "titulo": "Passeios", "resumo": "Lorem ipsum dolor sit amet"},
+        {"id": 6, "imagem": "cartao6.jpg", "titulo": "Bares e restaurantes", "resumo": "Lorem ipsum dolor sit amet"},
+        {"id": 7, "imagem": "cartao7.jpg", "titulo": "Compras", "resumo": "Lorem ipsum dolor sit amet"},
+        {"id": 8, "imagem": "cartao8.jpg", "titulo": "A noite", "resumo": "Lorem ipsum dolor sit amet"}
     ]
 
 }

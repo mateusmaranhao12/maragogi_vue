@@ -65,8 +65,22 @@
             </div> <!--Fim Row-->
         </div> <!--Fim Container-->
     </section><!--/História-->
+    <Footer></Footer>
 </template>
 
+<script>
+
+    import Footer from '@/components/Footer/Footer.vue'
+    export default {
+        name: 'Historia',
+
+        components: {
+            Footer
+        }
+    }
+</script>
+
+
 <style lang="scss">
-    @import 'Historia'
+    @import 'Historia';
 </style>

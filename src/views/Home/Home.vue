@@ -17,17 +17,24 @@
             </div>
         </div>  
     </section>
+    <Footer></Footer>
 </template>
 
 <script>
 
     import ApiMixin from '@/mixins/ApiMixins'
+    import Footer from '@/components/Footer/Footer.vue'
+
     export default {
         name: 'Home',
         mixins: [ApiMixin],
 
         created() {
             this.getDadosApi('http://localhost:3000/atracoes_principais')
+        },
+
+        components: {
+            Footer
         }
     }
 </script>

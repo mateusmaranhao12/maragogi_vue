@@ -53,12 +53,14 @@
             </div>
         </div>
     </div>
+    <Footer></Footer>
 </template>
 
 <script>
 
     import ApiMixin from '@/mixins/ApiMixins'
     import DadosGerais from '@/components/DadosImportantes/DadosGerais'
+    import Footer from '@/components/Footer/Footer.vue'
     import Telefones from '@/components/DadosImportantes/Telefones.vue'
     export default {
         name: 'Maragogi',
@@ -70,7 +72,8 @@
 
         components: {
             DadosGerais,
-            Telefones
+            Telefones,
+            Footer
         }
     }
 </script>

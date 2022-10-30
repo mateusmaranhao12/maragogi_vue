@@ -1,0 +1,29 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+.o-que-fazer {
+
+    margin: $margins;
+
+    .btn-card {
+        background: $branco;
+        border: 1px solid $destaque_azul;
+        color: blue;
+        text-transform: uppercase;
+    }
+    
+    .btn-card:hover {
+        background: $destaque_azul;
+        color: $branco;
+        transition: .3s;
+        border: 1px solid $branco;
+    }
+
+    .card-title {
+        text-align: $centro;
+    }
+
+    .card-text {
+        text-align: $centro;
+    }
+
+}

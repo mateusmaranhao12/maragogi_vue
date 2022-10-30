@@ -1,17 +1,12 @@
 @import '../../Variaveis scss/variaveis.scss';
 
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: $centro;
-}
+/*Layout*/
 
 .footer1{
     background: rgb(230, 230, 230);
     padding-top:$padding;
     padding-bottom: 40px;
-    text-align: $centro
+    text-align: $centro;
 }
 
 .footer1 h3{
