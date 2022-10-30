@@ -1,0 +1,30 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+.formulario-reserva {
+    margin-top: $margins;
+    margin-bottom: $margins;
+
+    .borda-formulario {
+        border: 1px solid rgb(202, 202, 202);
+        padding: $padding;
+        border-radius: 10px;
+    }
+
+    .texto-label {
+        color: $preto;
+        font-weight: $negrito;
+        margin: 5px;
+    }
+
+    .btn-reserva {
+        background-color: $laranja;
+        color: $branco;
+    }
+
+    .btn-reserva:hover {
+        background-color: $destaque_laranja;
+        color: $branco;
+    }
+
+}
+

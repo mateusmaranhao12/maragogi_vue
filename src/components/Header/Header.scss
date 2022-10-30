@@ -24,17 +24,49 @@ nav {
 
     .navbar-nav {
 
+        /*
         .nav-link {
-            color: $preto;
-            font-weight: $negrito;
-            text-transform: $maiusculo;
+            
         }
 
         .nav-link:hover {
             color: $laranja;
             transition: 0.2s ease;
             border-bottom: 1px solid $destaque-laranja;
+            
         }
+        */
+
+        .nav-link{
+            color: $preto;
+            font-weight: $negrito;
+            text-transform: $maiusculo;
+            display: inline-block;
+            position: relative;
+        }
+          
+          .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: $destaque-laranja;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+          }
+
+          .nav-link:hover {
+            color: $laranja;
+            transition: 0.2s ease;
+          }
+          
+          .nav-link:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
 
     }
 
