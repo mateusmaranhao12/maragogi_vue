@@ -17,6 +17,7 @@ import PiscinasNaturais from '@/components/PiscinasNaturais/PiscinasNaturais.vue
 import Praia from '@/components/Praia/Praia.vue'
 import oQueFazer from '@/views/oQueFazer/oQueFazer.vue'
 import Reserva from '@/views/Reserva/Reserva.vue'
+import Sucesso from '@/components/Sucesso/Sucesso.vue'
 
 const routes = [
 
@@ -52,7 +53,10 @@ const routes = [
 
     {
         path: '/reserva', //localhost:8080/reserva
-        component: Reserva
+        component: Reserva,
+        children: [
+            { path: 'sucesso', component: Sucesso }
+        ]
     },
 
     //{ path: '/:catchAll(.*)*', redirect: '/' } //vue2 = *
