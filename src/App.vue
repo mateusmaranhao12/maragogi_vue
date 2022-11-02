@@ -11,6 +11,11 @@
 
   export default {
     name: 'App',
+
+    data: () => ({
+      exibirAlerta: false
+    }),
+
     components: {
       Header
     }

@@ -1,13 +1,8 @@
 <template>
-    <label class="col-3 col-form-label texto-label">Quantidade de crianças:</label>
-    <div class="col">
-        <select class="form-select">
-            <option value=""></option>
-            <option v-for="d in dados" :key="d.id">
-                {{d.quantidade}}
-            </option>
-        </select>
-    </div>
+    <option value=""></option>
+    <option v-for="d in dados" :key="d.id" :value="d.id">
+        {{d.quantidade}}
+    </option>
 </template>
 
 <script>
