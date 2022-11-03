@@ -36,7 +36,7 @@
                 <div class="col-md-12">
                     <label class="col-3 col-form-label texto-label">Local que deseja se hospedar: <span class="text-danger">*</span></label>
                     <div class="col">
-                        <select class="form-select" v-model="form.hospedagem">
+                        <select class="form-select" v-model="form.hospedagem" id="hospedagem">
                             <option value=""></option>
                             <option v-for="d in dados" :key="d.id">
                                 {{d.hotel}}
@@ -48,19 +48,20 @@
                 </div>
                 <div class="col-6">
                     <label class="col-3 col-form-label texto-label">Check-in: <span class="text-danger">*</span></label>
-                    <input type="date" class="form-control" v-model="form.checkin">
+                    <input type="date" class="form-control" v-model="form.checkin" id="checkin">
                     <span v-if="!this.form.checkin" class="text-danger" id="erro_checkin"></span>
+                    <span v-if="this.form.checkin > this.form.checkout" id="data_invalida" class="text-danger text-center"></span>
                 </div>
                 <div class="col-6">
                     <label class="col-3 col-form-label texto-label">Check-out: <span class="text-danger">*</span></label>
-                    <input type="date" class="form-control" v-model="form.checkout">
+                    <input type="date" class="form-control" v-model="form.checkout" id="checkout">
                     <span v-if="!this.form.checkout" class="text-danger" id="erro_checkout"></span>
                 </div>
-                <span v-if="this.form.checkin > this.form.checkout" id="data_invalida" class="text-danger text-center"></span>
+                
                 <div class="col">
                     <label class="col-3 col-form-label texto-label">Quantidade de adultos: <span class="text-danger">*</span></label>
                     <div class="col">
-                        <select class="form-select" v-model="form.adultos">
+                        <select class="form-select" id="adultos" v-model="form.adultos">
                             <adultos />
                         </select>
                         <span v-if="!this.form.adultos" class="text-danger" id="erro_adultos"></span>
@@ -69,7 +70,7 @@
                 <div class="col">
                     <label class="col-3 col-form-label texto-label">Quantidade de crianças: <span class="text-danger">*</span></label>
                     <div class="col">
-                        <select class="form-select" v-model="form.criancas">
+                        <select class="form-select" id="criancas" v-model="form.criancas">
                             <criancas/>
                         </select>
                         <span v-if="!this.form.criancas" class="text-danger" id="erro_criancas"></span>
@@ -169,12 +170,12 @@
             },
 
             enviar() {
-                //console.log(e)
 
-                const formEnvio = Object.assign({}, this.form)
+                //const formEnvio = Object.assign({}, this.form)
+                //console.log(formEnvio)
+
+                Object.assign({}, this.form)
                 this.$router.push('/reserva/sucesso')
-
-                console.log(formEnvio)
 
                 //Requisição HTTP para o Back-end da aplicação
                 //promise que vai nos permitir tomar ações se a requisição deu certo ou errado
@@ -190,7 +191,7 @@
                 console.log('Resetado')
             }
 
-        },
+        }
     }
 </script>
 

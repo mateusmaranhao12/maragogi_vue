@@ -1,0 +1,68 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+.texto-ciano {
+    background-color: $destaque-ciano;
+    color: $branco;
+    margin: $margins;
+    text-align: $centro;
+    border-radius: $border-radius;
+    padding: 1rem;
+}
+
+.btn-danger {
+    margin-top: $margins;
+}
+
+.piscinas-naturais {
+    h3 {
+        text-align: $centro;
+        font-weight: $negrito;
+        margin-top: 3rem;
+        color: $preto;
+    }
+
+    img {
+        margin-top: $margins;
+        border-radius: $border-radius;
+        height: 36em;
+    }
+
+    p {
+        text-align: $centro;
+        margin-top: $margins;
+    }
+}
+
+.piscinas-naturais2 {
+    h2 {
+        text-align: $centro;
+        font-weight: $negrito;
+        margin-top: $margins;
+        text-transform: $maiusculo;
+        color: $preto;
+    }
+
+    img {
+        margin-top: $margins;
+        border-radius: $border-radius;
+    }
+
+    p {
+        margin-top: $margins;
+
+        span {
+            font-weight: $negrito;
+        }
+    }
+
+    table {
+        margin-top: $margins;
+    }
+}
+
+.secao_whatsapp {
+    margin-top: $margins;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    padding: $padding;
+}

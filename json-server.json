@@ -94,6 +94,7 @@
     ],
 
     "criancas": [
+        {"id": 99, "quantidade": "Nenhuma"},
         {"id": 1, "quantidade": 1},
         {"id": 2, "quantidade": 2},
         {"id": 3, "quantidade": 3},
@@ -104,6 +105,20 @@
         {"id": 8, "quantidade": 8},
         {"id": 9, "quantidade": 9},
         {"id": 10, "quantidade": 10}
+    ],
+
+    "textos_piscinas_naturais": [
+        {"traco": "-", "topico": " O passeio não é realizado em todos os dias, pois depende da maré e há restrição ao número de visitantes/dia, além do rodízio das embarcações."},
+        {"traco": "-", "topico": " São 03 áreas abertas à visitação: Barra Grande , Galés e Taocas"},
+        {"traco": "-", "topico": " A visita só é permitida com maré máxima 0.6, no período de 06:00h às 17:00h - consulte a TÁBUA DE MARÉS."},
+        {"traco": "-", "topico": " O passeio é feito em catamarãs e lanchas, com duração de 02:30 horas."}
+    ],
+
+    "piscinas_naturais_precos": [
+        {"passeio": "Passeio de catamarã nas piscinas naturais:", "preco": "de R$ 80,00 a R$ 100,00/pessoa (depende da época)."},
+        {"passeio": "Passeio de catamarã pela orla:", "preco": "a partir de R$ 50,00/pessoa."},
+        {"passeio": "Mergulho superficial:", "preco": "aluguel de máscara e snorkel R$ 15,00."},
+        {"passeio": "Mergulho com cilindro:", "preco": "R$ 100,00, incluindo CD com fotos do mergulho."}
     ]
 
 }
