@@ -3,6 +3,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 //Rotas
 
+//Carregamento normal das rotas
+
+
 import BaresERestaurantes from '@/components/BaresERestaurantes/BaresERestaurantes.vue'
 import Compras from '@/components/Compras/Compras.vue'
 import Historia from '@/views/Historia/Historia.vue'
@@ -18,6 +21,26 @@ import Praia from '@/components/Praia/Praia.vue'
 import oQueFazer from '@/views/oQueFazer/oQueFazer.vue'
 import Reserva from '@/views/Reserva/Reserva.vue'
 import Sucesso from '@/components/Sucesso/Sucesso.vue'
+
+
+//Lazy loading
+
+//const BaresERestaurantes = () => import (/* webpackChunkName: "o-que-fazer" */ '@/components/BaresERestaurantes/BaresERestaurantes.vue')
+//const Compras = () => import (/* webpackChunkName: "o-que-fazer" */ '@/components/Compras/Compras.vue')
+//const Historia = () => import ('@/views/Historia/Historia.vue')
+//const Home = () => import ('@/views/Home/Home.vue')
+//const Maragogi = () => import ('@/views/Maragogi/Maragogi.vue')
+//const Mergulho = () => import (/* webpackChunkName: "o-que-fazer" */ '@/components/Mergulho/Mergulho.vue')
+//const Noite = () => import (/* webpackChunkName: "o-que-fazer" */ '@/components/Noite/Noite.vue')
+//const PaginaNaoEncontrada = () => import ('@/components/PaginaNaoEncontrada/PaginaNaoEncontrada.vue')
+//const Passeios = () => import (/* webpackChunkName: "o-que-fazer" */ '@/components/Passeios/Passeios.vue')
+//const PasseiosDeBuggy = () => import (/* webpackChunkName: "o-que-fazer" */ '@/components/PasseiosDeBuggy/PasseiosDeBuggy.vue')
+//const PiscinasNaturais = () => import (/* webpackChunkName: "o-que-fazer" */ '@/components/PiscinasNaturais/PiscinasNaturais.vue')
+//const Praia = () => import (/* webpackChunkName: "o-que-fazer" */ '@/components/Praia/Praia.vue')
+//const oQueFazer = () => import (/* webpackChunkName: "o-que-fazer" */ '@/views/oQueFazer/oQueFazer.vue')
+//const Reserva = () => import (/* webpackChunkName: "reserva" */ '@/views/Reserva/Reserva.vue')
+//const Sucesso = () => import (/* webpackChunkName: "reserva" */ '@/components/Sucesso/Sucesso.vue')
+
 
 const routes = [
 

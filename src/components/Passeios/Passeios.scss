@@ -1,0 +1,17 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+.passeios {
+
+    border-bottom: 1px solid black; 
+    padding-bottom: 10rem;
+
+    img {
+        margin-top: $margins;
+        border-radius: $border-radius;
+    }
+
+    p {
+        text-align: $centro;
+        margin-top: 3rem;
+    }
+}

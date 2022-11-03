@@ -1,0 +1,19 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+.passeios-de-buggy {
+    h3 {
+        font-weight: $negrito;
+        text-align: $centro;
+        margin-top: $margins;
+    }
+
+    img {
+        margin-top: $margins;
+        border-radius: $border-radius;
+    }
+
+    p {
+        text-align: $centro;
+        margin-top: 3rem;
+    }
+}
