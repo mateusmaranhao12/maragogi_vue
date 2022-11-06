@@ -1,13 +1,13 @@
 <template>
-    <section class="conteudo-principal">
+    <section class="conteudo-principal"> <!--Seção principal-->
         <img class="img-fluid" src="../../../public/img/capa.png" />
         <h2>HÁ 32 ANOS DIVULGANDO ESTE PARAÍSO! Suas reservas com quem entende de Maragogi.</h2>
     </section>
     <section>
-        <div class=" marcador-container grids">
+        <div class=" marcador-container grids"><!--Grids Home-->
             <div class="row">
         
-                <div v-for="d in dados" :key="d.id" class="marcador col-md-6 col-xl-2">
+                <div v-for="d in dados" :key="d.id" class="marcador col-md-6 col-xl-2"> <!--Loop para as Grids-->
                     <img class="img-fluid" :src="`/img/${d.imagem}`">
                     <h4>{{d.titulo}}</h4>
                     <p>{{d.resumo}}</p>
@@ -17,7 +17,7 @@
             </div>
         </div>  
     </section>
-    <Footer></Footer>
+    <Footer></Footer><!--Rodapé-->
 </template>
 
 <script>
@@ -29,7 +29,7 @@
         name: 'Home',
         mixins: [ApiMixin],
 
-        created() {
+        created() { //importando JSON das grids
             this.getDadosApi('http://localhost:3000/atracoes_principais')
         },
 

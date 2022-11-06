@@ -1,8 +1,8 @@
 <template>
-    <div class="texto-azul">
+    <div class="texto-azul"> <!--Destaque Azul-->
         <h1>Maragogi</h1>
     </div>
-    <div class="localizacao">
+    <div class="localizacao"><!--Localização-->
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -18,7 +18,7 @@
             </div>
         </div>
     </div>
-    <div class="mapa-da-cidade">
+    <div class="mapa-da-cidade"><!--Mapa da Cidade-->
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -39,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <dados-gerais />
+                    <dados-gerais /> <!--Componente Dados Gerais-->
                 </div>
             </div>
         </div>
@@ -48,12 +48,12 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <telefones />
+                    <telefones /> <!--Componente Telefones-->
                 </div>
             </div>
         </div>
     </div>
-    <Footer></Footer>
+    <Footer></Footer> <!--Rodape-->
 </template>
 
 <script>

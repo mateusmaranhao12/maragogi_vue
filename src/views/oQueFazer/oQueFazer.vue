@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <router-view></router-view>
+                <router-view></router-view> <!--Rota do respectivo botão clicado (Piscinas Naturais, Mergulho, etc)-->
             </div>
         </div>
     </div>

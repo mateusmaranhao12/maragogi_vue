@@ -2,25 +2,25 @@
 
 /*Layout*/
 
-.footer1{
+.footer1 {
     background: rgb(230, 230, 230);
     padding-top:$padding;
     padding-bottom: 40px;
     text-align: $centro;
-}
 
-.footer1 h3{
-    margin-top: $margins;
-    font-size: $margins;
-    font-weight: $negrito;
-    text-transform: $maiusculo;
-    color: $destaque-laranja;
-}
+    h3{
+        margin-top: $margins;
+        font-size: $margins;
+        font-weight: $negrito;
+        text-transform: $maiusculo;
+        color: $destaque-laranja;
+    }
 
-.footer1 h5{
-    font-size: 15px;
-    font-weight: $negrito;
-    color: $destaque-laranja;
+    h5{
+        font-size: 15px;
+        font-weight: $negrito;
+        color: $destaque-laranja;
+    }
 }
 
 .btn-icones {
@@ -33,22 +33,23 @@
     transition: .3s;
 }
 
-.footer2{
+.footer2 {
     background-color: $laranja;
     padding-top:10px;
     padding-bottom: 10px;
     text-align: $centro;
-}
 
-.footer2 h5 {
-    color: $branco;
-    font-size: $font-size-18;
-}
+    h5 {
+        color: $branco;
+        font-size: $font-size-18;
+    }
 
-.footer2 img{
-    margin-left: 10px;
-}
+    img{
+        margin-left: 10px;
+    }
 
-.footer2 img:hover{
-    transform: scale(1.2);
+    .footer2 img:hover{
+        transform: scale(1.2);
+    }
+
 }

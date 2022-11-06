@@ -16,8 +16,10 @@ nav {
     margin: $margins;
 }
 
-.navbar-brand img:hover {
-    transform: scale(1.2);
+.navbar-brand {
+    img:hover {
+        transform: scale(1.2);
+    }
 }
 
 .navbar-site {
