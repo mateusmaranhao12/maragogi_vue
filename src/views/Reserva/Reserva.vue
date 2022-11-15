@@ -105,6 +105,7 @@
 
         created() {
             this.getDadosApi('http://localhost:3000/hospedagens')
+            this.getDadosApi('https://json-server-vercel-pearl.vercel.app/hospedagens')
         },
 
         components: {

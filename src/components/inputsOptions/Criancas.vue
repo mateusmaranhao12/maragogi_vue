@@ -14,6 +14,7 @@
 
         created() {
             this.getDadosApi('http://localhost:3000/criancas')
+            this.getDadosApi('https://json-server-vercel-pearl.vercel.app/criancas')
         }
     }
 </script>

@@ -68,6 +68,7 @@
 
         created() {
             this.getDadosApi('http://localhost:3000/ruas')
+            this.getDadosApi('https://json-server-vercel-pearl.vercel.app/ruas')
         },
 
         components: {

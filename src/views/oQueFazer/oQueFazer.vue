@@ -49,6 +49,7 @@
         mixins: [ApiMixin],
         created() {
             this.getDadosApi('http://localhost:3000/o_que_fazer')
+            this.getDadosApi('https://json-server-vercel-pearl.vercel.app/o_que_fazer')
         },
 
         components: {

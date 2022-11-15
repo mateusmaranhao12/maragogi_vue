@@ -26,6 +26,7 @@
 
         created() {
             this.getDadosApi('http://localhost:3000/piscinas_naturais_precos')
+            this.getDadosApi('https://json-server-vercel-pearl.vercel.app/piscinas_naturais_precos')
         }
 
     }

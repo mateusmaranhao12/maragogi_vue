@@ -51,6 +51,7 @@
 
         created() {
             this.getDadosApi('http://localhost:3000/textos_piscinas_naturais')
+            this.getDadosApi('https://json-server-vercel-pearl.vercel.app/textos_piscinas_naturais')
         },
 
         components: {
