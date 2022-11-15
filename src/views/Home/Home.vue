@@ -31,7 +31,6 @@
 
         created() { //importando JSON das grids
             this.getDadosApi('http://localhost:3000/atracoes_principais')
-            this.getDadosApi('https://maragogi-vue.vercel.app/')
         },
 
         components: {
